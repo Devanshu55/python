@@ -1,0 +1,40 @@
+s1 = []
+s2 = []
+s3 = []
+s4 = []
+s5 = []
+s6 = []
+m1 = input("maths : ")
+m2 = input("gujarati : ")
+s1.append(m1)
+s1.append(m2)
+m1 = input("maths : ")
+m2 = input("gujarati : ")
+s2.append(m1)
+s2.append(m2)
+m1 = input("maths : ")
+m2 = input("gujarati : ")
+s3.append(m1)
+s3.append(m2)
+m1 = input("maths : ")
+m2 = input("gujarati : ")
+s4.append(m1)
+s4.append(m2)
+m1 = input("maths : ")
+m2 = input("gujarati : ")
+s5.append(m1)
+s5.append(m2)
+m1 = input("maths : ") 
+m2 = input("gujarati : ")
+s6.append(m1)
+s6.append(m2)
+s1.sort()
+s2.sort()
+s3.sort()
+s4.sort()
+s5.sort()
+s6.sort()
+print(s1,s2,s3,s4,s5,s6)
+
+l = (23,34,56,78)
+print(sum(l)) 
